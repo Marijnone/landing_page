@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+// Customization
+
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+
+/*
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+// Update the blue shade, used for links
+$blue: #06bcef;
+// Add pink and its invert
+$pink: #ff8080;
+$pink-invert: #fff;
+// Update the sans-serif font family
+$family-sans-serif: "Helvetica", "Arial", sans-serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink;
+$primary-invert: $pink-invert;
+
+// 4. Import the rest of Bulma
+*/
+
+
+
+@import "../node_modules/bulma/bulma";
+
+
+.logos{
+    padding: 8rem 6em 2em;   
+}
+
+.people{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+// mobile
+@media (max-width: 512px) {
+    #grid {
+        display: grid;
+        margin: 0em -5em;
+        
+    }
+    .people{
+        display: grid;
+        grid-template-columns: 1fr 1fr
+    }
+}
+// wide screen
+@media (min-width: 1472px) {
+    #grid {
+        display: grid;
+        margin: 0em 10em;
+        
+    }
+}
+// logo
+.navbar-item img{
+    max-height: none;
+    height: 4rem;
+    width: 5rem;
+}
+/* Animation arrow */
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
