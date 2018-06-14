@@ -35,9 +35,17 @@ $primary-invert: $pink-invert;
     padding: 8rem 6em 2em;   
 }
 
-.people{
+// logo
+.navbar-item img {
+    max-height: none;
+    height: 8em;
+    width: 13em;
+}
+
+.people {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
 }
 // mobile
 @media (max-width: 512px) {
@@ -48,7 +56,13 @@ $primary-invert: $pink-invert;
     }
     .people{
         display: grid;
-        grid-template-columns: 1fr 1fr
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+    .navbar-item img {
+        max-height: none;
+        height: 4em;
+        width: 6em;
     }
 }
 // wide screen
@@ -59,13 +73,34 @@ $primary-invert: $pink-invert;
         
     }
 }
-// logo
-.navbar-item img{
-    max-height: none;
-    height: 4rem;
-    width: 5rem;
+@keyframes yourAnimation{
+    0%{
+        transform: translateY(-10);
+        }
+    36%{
+        transform: translateY(30%);
+        }
+    50%{
+        transform: translateY(30%);
+        }
+    70%{
+        transform: translateY(-10);
+        }
+    100%{
+        transform: translateY(-10);
+        }
 }
+
+// #learn{
+//     animation: yourAnimation 2.5s 4 0s ease-out;
+//     position: relative;
+    
+// }
+
+
 /* Animation arrow */
+
+
 .bounce {
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
@@ -80,6 +115,7 @@ $primary-invert: $pink-invert;
       transform: translateY(-30px);
     }
     60% {
-      transform: translateY(-15px);
+      transform: translateY(px);
     }
   }
+

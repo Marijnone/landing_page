@@ -4,8 +4,9 @@
 	align-items: center;
 }
 
-.center-column {
-    flex-direction: column;
+.center-column1 {
+	flex-direction: column; 
+	/* this is commented out because of the weird margin problem with the logo's */
 }
 
 .top    { align-items:     flex-start; }

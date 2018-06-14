@@ -6527,9 +6527,15 @@ label.panel-block {
 .logos {
   padding: 8rem 6em 2em; }
 
+.navbar-item img {
+  max-height: none;
+  height: 8em;
+  width: 13em; }
+
 .people {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; }
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center; }
 
 @media (max-width: 512px) {
   #grid {
@@ -6537,17 +6543,29 @@ label.panel-block {
     margin: 0em -5em; }
   .people {
     display: grid;
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr;
+    text-align: center; }
+  .navbar-item img {
+    max-height: none;
+    height: 4em;
+    width: 6em; } }
 
 @media (min-width: 1472px) {
   #grid {
     display: grid;
     margin: 0em 10em; } }
 
-.navbar-item img {
-  max-height: none;
-  height: 4rem;
-  width: 5rem; }
+@keyframes yourAnimation {
+  0% {
+    transform: translateY(-10); }
+  36% {
+    transform: translateY(30%); }
+  50% {
+    transform: translateY(30%); }
+  70% {
+    transform: translateY(-10); }
+  100% {
+    transform: translateY(-10); } }
 
 /* Animation arrow */
 .bounce {
@@ -6561,4 +6579,4 @@ label.panel-block {
   40% {
     transform: translateY(-30px); }
   60% {
-    transform: translateY(-15px); } }
+    transform: translateY(px); } }
