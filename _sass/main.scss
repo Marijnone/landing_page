@@ -34,7 +34,7 @@ $primary-invert: $pink-invert;
 .logos{
     padding: 10rem 6em 2em; 
     object{
-       max-width: 80%; 
+       max-width: 80%;
     }
 }
 
@@ -68,58 +68,23 @@ $primary-invert: $pink-invert;
         height: 4em;
         width: 6em;
     }
+    .copy{
+        
+    }
 }
 // wide screen
 @media (min-width: 1472px) {
     #grid {
         display: grid;
         margin: 0em 10em;
-        
     }
-}
-@keyframes yourAnimation{
-    0%{
-        transform: translateY(-10);
+    .logos{
+        padding: 10rem 6em 2em; 
+        object{
+           max-width: 65%;
         }
-    36%{
-        transform: translateY(30%);
-        }
-    50%{
-        transform: translateY(30%);
-        }
-    70%{
-        transform: translateY(-10);
-        }
-    100%{
-        transform: translateY(-10);
-        }
-}
-
-// #learn{
-//     animation: yourAnimation 2.5s 4 0s ease-out;
-//     position: relative;
+    }
     
-// }
+}
 
-
-/* Animation arrow */
-
-
-.bounce {
-    -moz-animation: bounce 2s infinite;
-    -webkit-animation: bounce 2s infinite;
-    animation: bounce 2s infinite;
-  }
-  
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-30px);
-    }
-    60% {
-      transform: translateY(px);
-    }
-  }
 
