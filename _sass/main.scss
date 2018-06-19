@@ -32,8 +32,12 @@ $primary-invert: $pink-invert;
 
 
 .logos{
-    padding: 8rem 6em 2em;   
+    padding: 10rem 6em 2em; 
+    object{
+       max-width: 80%; 
+    }
 }
+
 
 // logo
 .navbar-item img {

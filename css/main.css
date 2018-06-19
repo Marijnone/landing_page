@@ -6525,7 +6525,9 @@ label.panel-block {
   padding: 3rem 1.5rem 6rem; }
 
 .logos {
-  padding: 8rem 6em 2em; }
+  padding: 10rem 6em 2em; }
+  .logos object {
+    max-width: 80%; }
 
 .navbar-item img {
   max-height: none;
