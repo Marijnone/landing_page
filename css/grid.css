@@ -7,6 +7,7 @@
     /* grid-template-columns: 1fr 1fr 2fr 1fr 1fr; */
     grid-template-columns: 140px 140px 250px 140px 140px;
     justify-content: center;
+    justify-items: baseline;
     
 }
 

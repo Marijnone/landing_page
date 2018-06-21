@@ -27,17 +27,34 @@ $primary-invert: $pink-invert;
 */
 
 
-
 @import "../node_modules/bulma/bulma";
-
-
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Roboto:400,900');
 .logos{
     padding: 10rem 6em 2em; 
     object{
        max-width: 80%;
     }
 }
+// font change
+#copy {
+     h1 { font-family: 'Orbitron', sans-serif;
+    
 
+     }
+    h2  {
+        font-family: 'Roboto';
+    }
+    p{
+        font-family: 'Roboto'
+    }
+    a{
+        font-family: 'Roboto'
+    }
+}
+// partners
+#title {
+    padding-bottom: 0.4em;
+}
 
 // logo
 .navbar-item img {
@@ -86,11 +103,6 @@ $primary-invert: $pink-invert;
 // wide screen
 @media (min-width: 1472px) {
  
-
-    #grid {
-        display: grid;
-        // margin: 0em 10em;
-    }
     .logos{
         padding: 10rem 6em 2em; 
         object{

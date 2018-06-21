@@ -19,6 +19,7 @@ $primary-invert: $pink-invert;
 // 4. Import the rest of Bulma
 */
 /*! bulma.io v0.6.2 | MIT License | github.com/jgthms/bulma */
+@import url("https://fonts.googleapis.com/css?family=Orbitron|Roboto:400,900");
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -6529,6 +6530,21 @@ label.panel-block {
   .logos object {
     max-width: 80%; }
 
+#copy h1 {
+  font-family: 'Orbitron', sans-serif; }
+
+#copy h2 {
+  font-family: 'Roboto'; }
+
+#copy p {
+  font-family: 'Roboto'; }
+
+#copy a {
+  font-family: 'Roboto'; }
+
+#title {
+  padding-bottom: 0.4em; }
+
 .navbar-item img {
   max-height: none;
   height: 8em;
@@ -6560,8 +6576,6 @@ label.panel-block {
     grid-template-columns: 1fr 1fr 2fr 1fr 1fr; } }
 
 @media (min-width: 1472px) {
-  #grid {
-    display: grid; }
   .logos {
     padding: 10rem 6em 2em; } }
 
