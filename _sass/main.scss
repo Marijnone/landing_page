@@ -71,18 +71,38 @@ $primary-invert: $pink-invert;
     .copy{
         
     }
+    #grid{
+        grid-template-columns: 1fr 1fr 2fr 1fr 1fr; 
+    }
+}
+
+@media (max-width: 768px) {
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    }
+  
 }
 // wide screen
 @media (min-width: 1472px) {
+ 
+
     #grid {
         display: grid;
-        margin: 0em 10em;
+        // margin: 0em 10em;
     }
     .logos{
         padding: 10rem 6em 2em; 
         object{
-           max-width: 65%;
+        //    max-width: 65%;
         }
+    }
+    
+}
+// to make the hamburger disapear
+@media (min-width:  1080px) {
+    body > section.hero.is-fullheight > nav > div > div.column.right > figure > svg {
+        display: none;
     }
     
 }

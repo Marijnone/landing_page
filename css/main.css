@@ -6550,13 +6550,21 @@ label.panel-block {
   .navbar-item img {
     max-height: none;
     height: 4em;
-    width: 6em; } }
+    width: 6em; }
+  #grid {
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr; } }
+
+@media (max-width: 768px) {
+  #grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr; } }
 
 @media (min-width: 1472px) {
   #grid {
-    display: grid;
-    margin: 0em 10em; }
+    display: grid; }
   .logos {
-    padding: 10rem 6em 2em; }
-    .logos object {
-      max-width: 65%; } }
+    padding: 10rem 6em 2em; } }
+
+@media (min-width: 1080px) {
+  body > section.hero.is-fullheight > nav > div > div.column.right > figure > svg {
+    display: none; } }
