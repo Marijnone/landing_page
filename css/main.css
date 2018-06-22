@@ -19,7 +19,7 @@ $primary-invert: $pink-invert;
 // 4. Import the rest of Bulma
 */
 /*! bulma.io v0.6.2 | MIT License | github.com/jgthms/bulma */
-@import url("https://fonts.googleapis.com/css?family=Orbitron|Roboto:400,900");
+@import url("https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300,400|Raleway:400,900");
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -6531,19 +6531,22 @@ label.panel-block {
     max-width: 80%; }
 
 #copy h1 {
-  font-family: 'Orbitron', sans-serif; }
+  font-family: 'Raleway', sans-serif; }
 
 #copy h2 {
-  font-family: 'Roboto'; }
+  font-family: 'Encode Sans Condensed', sans-serif; }
 
 #copy p {
-  font-family: 'Roboto'; }
+  font-family: 'Encode Sans Condensed', sans-serif; }
 
 #copy a {
-  font-family: 'Roboto'; }
+  font-family: 'Encode Sans Condensed', sans-serif; }
 
 #title {
-  padding-bottom: 0.4em; }
+  padding-bottom: 0.8em; }
+
+#header > section > level > div {
+  margin-top: 1em; }
 
 .navbar-item img {
   max-height: none;
@@ -6554,6 +6557,67 @@ label.panel-block {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center; }
+
+#learn {
+  background: -webkit-linear-gradient(to right, #c94b4b, #4b134f);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c94b4b, #4b134f);
+  /* W3C, IE 10+/ */ }
+
+body {
+  background: #fff; }
+
+.card {
+  background: #fff;
+  width: 20em;
+  height: 30em;
+  position: flex;
+  margin: 0em 1em 0em;
+  border-radius: 5px;
+  box-shadow: 0px 10px 70px rgba(0, 0, 0, 0.15); }
+
+.card-header {
+  height: 35%;
+  width: 100%;
+  padding: 0px;
+  overflow: hidden; }
+
+.header-img {
+  height: 100%;
+  width: 100%;
+  background: url(https://source.unsplash.com/jUwvjOmCTWc/) center;
+  background-size: 100%;
+  border-radius: inherit;
+  transition: all ease-in-out 0.4s; }
+
+.card-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 15px; }
+
+.card-title h1 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 0px; }
+
+.btn {
+  padding: 10px 20px;
+  position: absolute;
+  width: 60%;
+  left: 50%;
+  bottom: 30px;
+  transform: translate(-50%, 0%);
+  border: 1px solid turquoise;
+  border-radius: 100px;
+  text-align: center;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer; }
+  .btn:hover {
+    background: turquoise;
+    color: #fff; }
 
 @media (max-width: 512px) {
   #grid {

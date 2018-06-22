@@ -15,7 +15,7 @@
 	<style>
 		/* background */
 
-		.hero {
+		#header {
 			background: black url(images/backgrounds/topfoto-tester-n.png) center / cover;
 			/* background: black url(images/backgrounds/mixer_gradient_orange_desk.jpg) center / cover; */
 		}
@@ -26,13 +26,11 @@
 
 		/* <!-- Mobile --> */
 
-		@media (max-width: 768px) {
+		/* @media (max-width: 768px) {
 			.hero {
 				background: black url(images/backgrounds/topfoto-tester-n.png) center / cover;
 			}
-		}
-
-
+		} */
 
 		/* responsive */
 
@@ -47,7 +45,7 @@
 <body>
 
 	<!-- .hero -->
-	<section class="hero is-fullheight">
+	<section id="header" class="hero is-fullheight">
 
 		<!-- .hero-head -->
 		<nav class="hero-head">
@@ -62,8 +60,10 @@
 
 				</div>
 				<div class="column right">
-					<p class="navbar-item desktop has-text-white desktop">COURSES</p>
-					<p class="navbar-item desktop has-text-white desktop">SIGN IN</p>
+					<p class="navbar-item desktop has-text-white desktop">Online Courses</p>
+					<p class="navbar-item desktop has-text-white desktop">Feedback</p>
+					<p class="navbar-item desktop has-text-white desktop">More</p>
+
 					<figure class="navbar-item image">
 						<i class="fas fa-2x fa-bars has-text-white"></i>
 					</figure>
@@ -92,13 +92,15 @@
 
 		<section class="logos">
 			<div id="title">
-				<h4 class="title is-6 has-text-white" style="text-align:center;">Partners</h4>
+				<h4 class="title is-7 has-text-white" style="text-align:center;">PARTNERS</h4>
 			</div>
 			<div id="grid">
 				<div class="center-column">
+						<!-- <img src="/images/Logos/ps export/Ableton-n.svg" alt=""> -->
 					<object type="image/svg+xml" data="images/Logos/ps export/ableton.svg">
-						Your browser does not support SVG
+						Your browser does not support SVG -->
 					</object>
+					
 				</div>
 				<div class="center-column">
 					<object type="image/svg+xml" data="images/Logos/ps export/idt.svg">
@@ -108,7 +110,7 @@
 
 				</div>
 				<div class="center-column">
-					<object type="image/svg+xml" data="images/Logos/ps export/cons.svg">
+					<object type="image/svg+xml" data="images/Logos/ps export/cons-nieuw.svg">
 						Your browser does not support SVG
 					</object>
 				</div>
@@ -120,7 +122,7 @@
 
 				</div>
 				<div class="center-column">
-					<object type="image/svg+xml" data="images/Logos/ps export/DGTLN.svg">
+					<object type="image/svg+xml" data="images/Logos/ps export/DGTL-nieuw.svg">
 						Your browser does not support SVG
 					</object>
 
@@ -129,19 +131,77 @@
 
 
 			</div>
-			<level>
+			<level class="scroll">
 				<div class="center-column bounce">
-					<i class="fas fa-sort-down has-text-white"></i>
+					  <i class="fas fa-angle-down has-text-white"> </i>
 				</div>
 			</level>
 		</section>
-
+<!-- Video -->
+	</section>
+	<section class="section is-medium is-paddingless">
+		<div class="center container">
+			<iframe width="800" height="450" src="https://www.youtube.com/embed/sCBO1wqLi80?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media"
+			    allowfullscreen></iframe>
+		</div>
 	</section>
 
-	<section id="learn" class="hero is-primary is-medium" style="background: #c94b4b;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #c94b4b, #4b134f);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #c94b4b, #4b134f); /* W3C, IE 10+/ */
-">
+	<section id="courses" class="hero is-primary is-medium">
+		<div class="hero-body">
+			<div class="columns">
+				<div class="column center">
+					<div class="card">
+						<div class="card-header">
+							<div class="header-img"></div>
+						</div>
+						<div class="card-title">
+							<h1>Music creation and production</h1>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+								natoque penatibus et magnis dis parturient montes.</p>
+
+						</div>
+					</div>
+				</div>
+				<div class="column center">
+					<div class="card">
+						<div class="card-header">
+							<div class="header-img"></div>
+						</div>
+						<div class="card-title">
+							<h1>Music creation and production</h1>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+								natoque penatibus et magnis dis parturient montes.</p>
+
+						</div>
+					</div>
+				</div>
+				<div class="column center">
+					
+					</div>
+				</div>
+				<div class="column center">
+						
+				
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- <section id="learn" class="hero is-primary is-medium">
 		<div class="hero-body">
 			<div class="container">
 				<h1 class="title">
@@ -171,7 +231,7 @@ background: linear-gradient(to right, #c94b4b, #4b134f); /* W3C, IE 10+/ */
 				</div>
 			</div>
 		</div>
-	</section>
+		</section> -->
 	<!-- /.hero -->
 
 
