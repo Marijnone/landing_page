@@ -36,11 +36,28 @@ $gradient-purple:#4b134f;
 
 
 
-.logos{
-    padding: 10rem 6em 2em; 
-    object{
-       max-width: 80%;
-    }
+.logos {
+    padding: 10rem 4em 2em; 
+}
+
+// fixes size issue with svg
+ 
+ #grid > div:nth-child(1) > object{
+     max-width: 60%;
+ }
+ #grid > div:nth-child(2) > object{
+    max-width: 70%;
+}
+ #grid > div:nth-child(3) > object{
+    max-width: 100%;
+}
+#grid > div:nth-child(4) > object{
+    max-width: 70%;
+    // position: relative;
+    left: 10px;
+}
+#grid > div:nth-child(5) > object{
+    max-width: 60%;
 }
 // font change
 #copy {
@@ -183,6 +200,7 @@ body {
     }
     #grid{
         grid-template-columns: 1fr 1fr 2fr 1fr 1fr; 
+        padding: 0em 3em 0em;
     }
 }
 

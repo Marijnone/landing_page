@@ -6526,9 +6526,23 @@ label.panel-block {
   padding: 3rem 1.5rem 6rem; }
 
 .logos {
-  padding: 10rem 6em 2em; }
-  .logos object {
-    max-width: 80%; }
+  padding: 10rem 4em 2em; }
+
+#grid > div:nth-child(1) > object {
+  max-width: 60%; }
+
+#grid > div:nth-child(2) > object {
+  max-width: 70%; }
+
+#grid > div:nth-child(3) > object {
+  max-width: 100%; }
+
+#grid > div:nth-child(4) > object {
+  max-width: 70%;
+  left: 10px; }
+
+#grid > div:nth-child(5) > object {
+  max-width: 60%; }
 
 #copy h1 {
   font-family: 'Raleway', sans-serif; }
@@ -6632,7 +6646,8 @@ body {
     height: 4em;
     width: 6em; }
   #grid {
-    grid-template-columns: 1fr 1fr 2fr 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    padding: 0em 3em 0em; } }
 
 @media (max-width: 768px) {
   #grid {
