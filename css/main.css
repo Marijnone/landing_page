@@ -6539,6 +6539,7 @@ label.panel-block {
 
 #grid > div:nth-child(4) > object {
   max-width: 70%;
+  position: relative;
   left: 10px; }
 
 #grid > div:nth-child(5) > object {
@@ -6645,6 +6646,8 @@ body {
     max-height: none;
     height: 4em;
     width: 6em; }
+  #copy {
+    top: 15em !important; }
   #grid {
     grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
     padding: 0em 3em 0em; } }
