@@ -6568,11 +6568,6 @@ label.panel-block {
   height: 8em;
   width: 13em; }
 
-.people {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  text-align: center; }
-
 #learn {
   background: -webkit-linear-gradient(to right, #c94b4b, #4b134f);
   /* Chrome 10-25, Safari 5.1-6 */
@@ -6650,7 +6645,20 @@ body {
     top: 15em !important; }
   #grid {
     grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
-    padding: 0em 3em 0em; } }
+    padding: 0em 3em 0em;
+    justify-content: center; }
+  #grid > div:nth-child(1) > object {
+    max-width: 70%; }
+  #grid > div:nth-child(2) > object {
+    max-width: 80%; }
+  #grid > div:nth-child(3) > object {
+    max-width: 100%; }
+  #grid > div:nth-child(4) > object {
+    max-width: 80%;
+    position: relative;
+    left: 2px; }
+  #grid > div:nth-child(5) > object {
+    max-width: 70%; } }
 
 @media (max-width: 768px) {
   #grid {
