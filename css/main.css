@@ -4485,7 +4485,7 @@ html.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: #4a4a4a;
+  color: black;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 1rem;
@@ -4495,7 +4495,7 @@ a.navbar-item:hover, a.navbar-item.is-active,
 a.navbar-link:hover,
 a.navbar-link.is-active {
   background-color: whitesmoke;
-  color: #3273dc; }
+  color: #fafafa; }
 
 .navbar-item {
   flex-grow: 0;
@@ -4622,7 +4622,7 @@ a.navbar-link.is-active {
       pointer-events: auto;
       transform: translateY(0); }
   .navbar-link::after {
-    border: 1px solid #fff;
+    border: 1px solid black;
     border-right: 0;
     border-top: 0;
     content: " ";
@@ -6511,6 +6511,13 @@ label.panel-block {
 #header > nav > div > div.column.right {
   font-family: 'Roboto Condensed'; }
 
+.navbar-burger {
+  color: #fff;
+  height: 4.25rem; }
+
+.navbar-menu > .is-active .navbar-end > .navbar-item {
+  color: black; }
+
 #grid > div:nth-child(1) > object {
   max-width: 60%; }
 
@@ -6549,7 +6556,7 @@ label.panel-block {
 .navbar-item img {
   max-height: none;
   height: 8em;
-  width: 13em; }
+  width: 8em; }
 
 #learn {
   background: -webkit-linear-gradient(to right, #c94b4b, #4b134f);

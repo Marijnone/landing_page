@@ -26,7 +26,12 @@ $gradient-purple:#4b134f;
 // $primary: $pink;
 // $primary-invert: $pink-invert;
 // change the blue arrow
-$navbar-dropdown-arrow: #fff;
+$navbar-dropdown-arrow: rgb(0, 0, 0);
+$navbar-item-color: rgb(0, 0, 0);
+$navbar-item-hover-color: #fafafa;
+$navbar-dropdown-item:#c94b4b;
+// $navbar-burger-color: #fff;
+
 $primary:#e44479; //primary color
 // 4. Import the rest of Bulma
 //*
@@ -49,8 +54,20 @@ $primary:#e44479; //primary color
     font-family: 'Roboto Condensed'
 }
 
+.navbar-burger  {
+color: #fff;
+height: 4.25rem;
+}
+
+.navbar-menu > .is-active{
+   .navbar-end > .navbar-item{
+       color: black;
+   }
+}
+
+
 // fixes size issue with svg
- 
+
  #grid > div:nth-child(1) > object{
      max-width: 60%;
  }
@@ -93,12 +110,14 @@ $primary:#e44479; //primary color
 #header > section > level > div{
     margin-top: 1em;
 }
-// logo
+//logo
+
 .navbar-item img {
     max-height: none;
     height: 8em;
-    width: 13em;
+    width: 8em;
 }
+
 
 
 #learn{
