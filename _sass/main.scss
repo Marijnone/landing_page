@@ -60,21 +60,21 @@ $primary:#e44479; //primary color
     font-family: 'Roboto Condensed';
     color: #807d63;
 }
+//coloring the text
 #navbarExampleTransparentExample > div > div > div > div > a{
     color: #807d63
 }
-
-
+//coloring the hamburger
 .navbar-burger  {
 color: #fff;
 height: 4.25rem;
 }
 
-.navbar-menu > .is-active{
-   .navbar-end > .navbar-item{
-       color: black;
-   }
-}
+// .navbar-menu > .is-active{
+//    .navbar-end > .navbar-item{
+//        color: black;
+//    }
+// }
 
 .hero .navbar{
     z-index: 1000!important;
