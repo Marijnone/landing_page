@@ -27,10 +27,16 @@ $gradient-purple:#4b134f;
 // $primary-invert: $pink-invert;
 // change the blue arrow
 $navbar-dropdown-arrow: rgb(0, 0, 0);
-$navbar-item-color: rgb(0, 0, 0);
-$navbar-item-hover-color: #fafafa;
-$navbar-dropdown-item:#c94b4b;
-// $navbar-burger-color: #fff;
+$navbar-item-color:#fff;
+$navbar-item-hover-color:#807d63;
+// $navbar-background-color:#fff;
+
+$navbar-dropdown-item-hover-color:#807d63;
+$navbar-dropdown-background-color:#fff;
+$navbar-dropdown-boxed-radius:1px;
+$navbar-dropdown-boxed-shadow:none;
+
+$navbar-burger-color: #fff;
 
 $primary:#e44479; //primary color
 // 4. Import the rest of Bulma
@@ -50,9 +56,14 @@ $primary:#e44479; //primary color
     padding: 10rem 4em 2em; 
 }
 
-#header > nav > div > div.column.right{
-    font-family: 'Roboto Condensed'
+#navbarExampleTransparentExample > div{
+    font-family: 'Roboto Condensed';
+    color: #807d63;
 }
+#navbarExampleTransparentExample > div > div > div > div > a{
+    color: #807d63
+}
+
 
 .navbar-burger  {
 color: #fff;
@@ -65,6 +76,9 @@ height: 4.25rem;
    }
 }
 
+.hero .navbar{
+    z-index: 1000!important;
+}
 
 // fixes size issue with svg
 
@@ -110,21 +124,14 @@ height: 4.25rem;
 #header > section > level > div{
     margin-top: 1em;
 }
-//logo
 
-.navbar-item img {
-    max-height: none;
-    height: 8em;
-    width: 8em;
+//LOGO
+#header > nav > div.navbar-brand > figure > img{
+    position: absolute;
+     top: 15px;
+     left: 1em;
 }
 
-
-
-#learn{
-    background: -webkit-linear-gradient(to right, $gradient-red, $gradient-purple);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, $gradient-red, $gradient-purple); /* W3C, IE 10+/ */
-    
-}
 body {
 	background: #fff;
 }

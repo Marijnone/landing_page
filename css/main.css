@@ -4485,7 +4485,7 @@ html.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: black;
+  color: #fff;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 1rem;
@@ -4495,7 +4495,7 @@ a.navbar-item:hover, a.navbar-item.is-active,
 a.navbar-link:hover,
 a.navbar-link.is-active {
   background-color: whitesmoke;
-  color: #fafafa; }
+  color: #807d63; }
 
 .navbar-item {
   flex-grow: 0;
@@ -4594,7 +4594,7 @@ a.navbar-link.is-active {
       background-color: transparent !important; }
     .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
       background-color: whitesmoke;
-      color: #0a0a0a; }
+      color: #807d63; }
     .navbar.is-transparent .navbar-dropdown a.navbar-item.is-active {
       background-color: whitesmoke;
       color: #3273dc; }
@@ -4646,7 +4646,7 @@ a.navbar-link.is-active {
     justify-content: flex-end;
     margin-left: auto; }
   .navbar-dropdown {
-    background-color: white;
+    background-color: #fff;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border-top: 1px solid #dbdbdb;
@@ -4665,14 +4665,14 @@ a.navbar-link.is-active {
       padding-right: 3rem; }
       .navbar-dropdown a.navbar-item:hover {
         background-color: whitesmoke;
-        color: #0a0a0a; }
+        color: #807d63; }
       .navbar-dropdown a.navbar-item.is-active {
         background-color: whitesmoke;
         color: #3273dc; }
     .navbar-dropdown.is-boxed {
-      border-radius: 5px;
+      border-radius: 1px;
       border-top: none;
-      box-shadow: 0 8px 8px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+      box-shadow: none;
       display: block;
       opacity: 0;
       pointer-events: none;
@@ -6508,8 +6508,12 @@ label.panel-block {
 .logos {
   padding: 10rem 4em 2em; }
 
-#header > nav > div > div.column.right {
-  font-family: 'Roboto Condensed'; }
+#navbarExampleTransparentExample > div {
+  font-family: 'Roboto Condensed';
+  color: #807d63; }
+
+#navbarExampleTransparentExample > div > div > div > div > a {
+  color: #807d63; }
 
 .navbar-burger {
   color: #fff;
@@ -6517,6 +6521,9 @@ label.panel-block {
 
 .navbar-menu > .is-active .navbar-end > .navbar-item {
   color: black; }
+
+.hero .navbar {
+  z-index: 1000 !important; }
 
 #grid > div:nth-child(1) > object {
   max-width: 60%; }
@@ -6553,16 +6560,10 @@ label.panel-block {
 #header > section > level > div {
   margin-top: 1em; }
 
-.navbar-item img {
-  max-height: none;
-  height: 8em;
-  width: 8em; }
-
-#learn {
-  background: -webkit-linear-gradient(to right, #c94b4b, #4b134f);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #c94b4b, #4b134f);
-  /* W3C, IE 10+/ */ }
+#header > nav > div.navbar-brand > figure > img {
+  position: absolute;
+  top: 15px;
+  left: 1em; }
 
 body {
   background: #fff; }
