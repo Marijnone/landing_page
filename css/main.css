@@ -124,7 +124,7 @@ a {
   a strong {
     color: currentColor; }
   a:hover {
-    color: #807d63; }
+    color: #363636; }
 
 code {
   background-color: whitesmoke;
@@ -947,7 +947,7 @@ a.box:active {
     margin-right: calc(-0.375em - 1px); }
   .button:hover, .button.is-hovered {
     border-color: #b5b5b5;
-    color: #807d63; }
+    color: #363636; }
   .button:focus, .button.is-focused {
     border-color: #3273dc;
     color: #363636; }
@@ -959,14 +959,14 @@ a.box:active {
   .button.is-text {
     background-color: transparent;
     border-color: transparent;
-    color: #807d63;
+    color: #4a4a4a;
     text-decoration: underline; }
     .button.is-text:hover, .button.is-text.is-hovered, .button.is-text:focus, .button.is-text.is-focused {
       background-color: whitesmoke;
-      color: #807d63; }
+      color: #fff; }
     .button.is-text:active, .button.is-text.is-active {
       background-color: #e8e8e8;
-      color: #807d63; }
+      color: #fff; }
     .button.is-text[disabled] {
       background-color: transparent;
       border-color: transparent;
@@ -3438,7 +3438,7 @@ a.tag:hover {
     justify-content: center;
     padding: 0.5em 0.75em; }
     .breadcrumb a:hover {
-      color: #807d63; }
+      color: #363636; }
   .breadcrumb li {
     align-items: center;
     display: flex; }
@@ -4622,7 +4622,7 @@ a.navbar-link.is-active {
       pointer-events: auto;
       transform: translateY(0); }
   .navbar-link::after {
-    border: 1px solid black;
+    border: 1px solid #fff;
     border-right: 0;
     border-top: 0;
     content: " ";
@@ -4801,7 +4801,7 @@ a.navbar-link.is-active {
   .pagination-next:hover,
   .pagination-link:hover {
     border-color: #b5b5b5;
-    color: #807d63; }
+    color: #363636; }
   .pagination-previous:focus,
   .pagination-next:focus,
   .pagination-link:focus {
@@ -6625,7 +6625,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center; }
-  .navbar-item img {
+  #header > nav > div.navbar-brand > figure > img {
     max-height: none;
     height: 4em;
     width: 6em; }

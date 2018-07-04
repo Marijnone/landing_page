@@ -48,6 +48,7 @@
   ],
   "license": "MIT",
   "name": "bulma-start",
+  "homepage": "https://marijnone.github.io/landing_page/",
   "scripts": {
     "css-build": "node-sass _sass/main.scss css/main.css",
     "css-deploy": "npm run css-build && npm run css-postcss",
