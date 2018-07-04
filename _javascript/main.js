@@ -1,8 +1,6 @@
+"Use strict"
 var navwhite = document.getElementById("navwhite","navwhite1","navwhite2");
 var navwhitetStyle = navwhite.style;
-console.log(navwhite);
-
-
 
 document.addEventListener('DOMContentLoaded', () => {
   console.log('Hello Bulma!');
