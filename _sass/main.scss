@@ -38,6 +38,9 @@ $navbar-dropdown-boxed-shadow:none;
 
 $navbar-burger-color: #fff;
 
+$button-text-hover-color:#fff;
+
+
 $primary:#e44479; //primary color
 // 4. Import the rest of Bulma
 //*
@@ -76,6 +79,9 @@ height: 4.25rem;
 //    }
 // }
 
+#navwhite{
+    
+}
 .hero .navbar{
     z-index: 1000!important;
 }
