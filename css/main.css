@@ -6585,6 +6585,9 @@ body {
     max-height: none;
     height: 4em;
     width: 7em; }
+  .navbar-dropdown {
+    position: relative;
+    margin-left: 1em; }
   #copy {
     top: 15em !important; }
   #grid {
