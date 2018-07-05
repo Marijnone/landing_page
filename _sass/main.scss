@@ -142,9 +142,13 @@ body {
         text-align: center;
     }
     #header>nav>div.navbar-brand>figure>img {
+        position: absolute;
+        left: 0.5em;
+        top: 2em;
         max-height: none;
         height: 4em;
         width: 7em;
+
     }
     #copy {
         top: 15em !important;
